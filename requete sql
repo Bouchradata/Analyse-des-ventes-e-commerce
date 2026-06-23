@@ -1,0 +1,212 @@
+-----------------##################PROJET PORTFOLIO DATA ANALYST >>>ANALYSE DES VENTES ONLINES RETAIL######################--------------------
+--#####################################################################################################################
+
+----DESCRIPTION : Une ligne correspond à une référence d'article au sein d'une commande et c'est la colonne Quantity qui détermine la quantité
+
+--------------------------------<<<<<<<<<<<<<<<<<<<<<<<VERIFICATION ID CLIENT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------------------------
+SELECT 
+    COUNT(*) AS Total_Lignes,
+    COUNT(CustomerID) AS Lignes_Avec_ID,
+    SUM(CASE WHEN CustomerID IS NULL THEN 1 ELSE 0 END) AS Lignes_Sans_ID 
+FROM ventes; 
+
+
+-------réponse : 541909	541909	0
+
+------vérification-----------
+
+SELECT COUNT(*) 
+FROM ventes 
+WHERE CustomerID = '' OR CustomerID IS NULL;
+
+------réponse : 270 160
+------sur 541 909 lignes  270 160 lignes sont sans ID CLIENT
+
+-----------------------------------<<<<<<<<<<<<<<<<<<<<VERIFICATION QUANTITE>>>>>>>>>>>>>>>>>>>>>>>>---------------------------------
+select *
+from ventes
+where Quantity < 0;
+-- resulat: il y a 10 624 lignes qui ne sont pas des ventes
+
+select *
+from  ventes
+where InvoiceNo  like  'C%' ;
+--resultat  : parmis les 10 624 lignes,  9 288  lignes sont des retours.
+
+
+select  *
+from ventes
+where  Quantity < 0 and UnitPrice = 0;
+-- Résultat : 1 336 lignes. Ce sont les pertes/ajustements de stock.
+-- Constat : Ces 1 336 lignes n'ont pas d'identifiant client (CustomerID = '').
+
+select *
+from ventes
+where Quantity > 0 and UnitPrice = 0;
+-- Résultat : Ce sont certainement des cadeaux / opérations promotionnelles.
+
+
+SELECT InvoiceNo, StockCode, Description, Quantity, InvoiceDate, CustomerID, COUNT(*)
+FROM ventes
+GROUP BY InvoiceNo, StockCode, Description, Quantity, InvoiceDate, CustomerID
+HAVING COUNT(*) > 1;
+--resulat 4991  groupe de lignes qui sont des copies conformes.
+
+SELECT COUNT(*) 
+FROM (SELECT DISTINCT * FROM ventes);
+
+--resultat : 536 641
+
+
+SELECT COUNT(*) 
+FROM ventes
+WHERE UnitPrice > 0;
+------------------------------------------------<<<<<<<<<<<<<<<VENTES>>>>>>>>>>>>>>>>>>>>>>>----------------------
+
+select COUNT(DISTINCT CustomerID) 
+from ventes;
+--réponse : 4373
+--j'ai dénombré 4 373 clients uniques via la commande COUNT(DISTINCT). 
+--Cependant, mon analyse approfondie a révélé que 135 080 lignes contenaient des chaînes de caractères vides ('') pour l'ID Client.
+-- SQL comptant ce groupe 'NULL' comme une entité unique, 
+--j'ai corrigé le tir pour identifier le nombre réel de clients actifs, qui est de 4 372."
+
+---vérification-------
+select COUNT(DISTINCT CustomerID) 
+from ventes_propre;
+--résultat : 4372 clients
+
+
+----------------------------------------------------<<<<<<<<<<CREATION TABLE>>>>>>>>>>>>>>>--------------------------------------------
+CREATE TABLE ventes_monetaires AS
+SELECT * FROM ventes
+WHERE UnitPrice > 0;
+
+select count (*)
+from ventes_propre;
+--resulat : 539 392 lignes
+
+select count(*)
+from  (select distinct InvoiceNo,StockCode ,Description,Quantity ,InvoiceDate,UnitPrice, CustomerID,Country    
+from ventes_propre ) as sous_requete ;
+-- resultat  534 129
+----------------------------------------------------<<<<<<<<<<<<<<<<QUANTITE>>>>>>>>>>>>>>>>>>>>>----------------------------------
+
+--QUESTION 1: Quel est le volume total d'articles vendus ?
+
+select sum (Quantity)
+from ventes_propre
+where Quantity > 0;
+--resultat : 5 588 376 ventes + retour
+
+select sum (Quantity)
+from ventes_propre; 
+--resultat : 5 310 802 ventes 
+
+select count (*)
+from ventes_propre
+where InvoiceNo LIKE 'C%';
+--resultat :  9 288 lignes retours
+
+
+--QUESTION 2: Quel est le chiffre d'affaire total ?
+
+select sum (Quantity *  UnitPrice)
+from ventes_propre;
+
+--resultat : CA est de 9 769 872.054
+
+-------------------------------CREATION TABLE PROPRE SANS DOUBLON-------------------------------
+
+CREATE TABLE ventes_finales AS
+SELECT DISTINCT InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country    
+FROM ventes_propre;
+
+----------------------------------######################################---------------------------
+select *
+from ventes_finales; 
+---résulat : 534 129 LIGNES
+
+--Quel est le volume d'articles vendus ? 
+select  sum (Quantity)
+from ventes_finales
+WHERE Quantity > 0;
+-- réponse : 5 572 420  articles  expédiés.
+
+select  sum (Quantity)
+from ventes_finales;
+--réponse : 5 296 860 articles vendus sans retour
+
+
+
+--Quel est le volume de retour global de l'entreprise ?
+
+select sum (Quantity)
+from ventes_finales
+where InvoiceNo LIKE 'C%';
+--réponse : - 275 560 articles retournés
+
+
+
+--quel est le chiffre d'affaire ?
+
+select sum (Quantity *  UnitPrice)
+from ventes_finales;
+--resultat : 9 748 131.074 CA sans doublons 
+
+--quel est le nombre de commande ?
+SELECT COUNT(DISTINCT InvoiceNo) AS nb_commandes_uniques
+FROM ventes_finales;
+
+--résultat : 23 796 COMMANDES
+
+
+--Vrai nombre de commandes d'achat uniques
+
+SELECT COUNT(DISTINCT InvoiceNo) AS nb_commandes_achats
+FROM ventes_finales 
+WHERE InvoiceNo NOT LIKE 'C%';
+-- réponse : 19960
+
+
+--combien de  client total?
+select count( DISTINCT  CustomerID)
+from ventes_propre;
+
+--réponse : 4372, SQL a compte (") comme client unique par conséquent le chiffre réel est 4 371 au total
+
+
+--Combien de client fidèle ?
+SELECT CustomerID,
+       COUNT(DISTINCT InvoiceNo) AS nb_commandes
+FROM ventes_finales
+WHERE CustomerID != ''
+GROUP BY CustomerID
+HAVING nb_commandes > 1;
+
+--réponse : 3 059 clients fidèles
+
+
+--combien de client non fidèle ?
+SELECT CustomerID, COUNT(DISTINCT InvoiceNo) AS nb_commandes
+FROM ventes_finales
+WHERE CustomerID != ''
+GROUP BY CustomerID
+HAVING nb_commandes = 1;
+
+--réponse : 1312 clients non fidèles
+
+
+
+--Top des clients qui dépensent le plus
+select CustomerID ,
+    sum (Quantity *UnitPrice) as nb_total ,
+    count (distinct InvoiceNo) as nb_commande
+from ventes_finales
+where CustomerID !=""
+group by CustomerID
+order by nb_total desc; 
+
+
+
+
