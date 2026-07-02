@@ -36,20 +36,18 @@ Le tableau de bord interactif a été conçu pour permettre aux managers de pilo
 
 👉 Cliquez sur l'image ci-dessous pour explorer et filtrer le dashboard en temps réel sur Tableau Public 
 
-[![Aperçu du Tableau de Bord](Dashboard e-commerce.png )]([VOTRE_LIEN_TABLEAU_PUBLIC_ICI](https://public.tableau.com/views/ecommercetermin/TABLEAUDEBORDSURECOMMERCE?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
-
-
+[![Aperçu du Tableau de Bord](Dashboard e-commerce.png)][[![Aperçu du Tableau de Bord](NOM_EXACT_DE_VOTRE_IMAGE.png)](VOTRE_LIEN_TABLEAU_PUBLIC_ICI)]
 
 
 Recommandations Stratégiques :
 
 Sur la base de ces résultats, trois actions concrètes sont recommandées :
-1. Sécurisation des Stocks (Achats) :** Anticiper le pic d'activité majeur constaté au Q4 (août à novembre) en sécurisant les stocks du Top 10 produits dès le Q3 pour éviter les ruptures de stock.
-2. Campagne de Rétention (Marketing) :** Cibler spécifiquement les 1 312 clients ponctuels avec une offre de relance pour augmenter le taux de réachat.
-3. Audit des Retours (Supply Chain) :** Investiguer les causes des -275 560 articles retournés (défauts produits ? retards de livraison ?) pour réduire ce manque à gagner.
+> Sécurisation des Stocks (Achats) :** Anticiper le pic d'activité majeur constaté au Q4 (août à novembre) en sécurisant les stocks du Top 10 produits dès le Q3 pour éviter les ruptures de stock.
+> Campagne de Rétention (Marketing) :** Cibler spécifiquement les 1 312 clients ponctuels avec une offre de relance pour augmenter le taux de réachat.
+> Audit des Retours (Supply Chain) :** Investiguer les causes des -275 560 articles retournés (défauts produits ? retards de livraison ?) pour réduire ce manque à gagner.
 
  Structure du Dépôt: 
 
-* `/data` : Échantillon représentatif (100 lignes) au format CSV.
-* `/sql` : Scripts complets et documentés de création de table (`ventes_finales`) et d'extraction des KPI.
-* `/visuals` : Fichier source de l'analyse `.twbx` pour Tableau.
+> `/data` : Échantillon représentatif (100 lignes) au format CSV.
+> `/sql` : Scripts complets et documentés de création de table (`ventes_finales`) et d'extraction des KPI.
+> `/visuals` : Fichier source de l'analyse `.twbx` pour Tableau.
