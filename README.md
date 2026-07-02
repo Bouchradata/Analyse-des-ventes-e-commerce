@@ -36,7 +36,10 @@ Le tableau de bord interactif a été conçu pour permettre aux managers de pilo
 
 👉 Cliquez sur l'image ci-dessous pour explorer et filtrer le dashboard en temps réel sur Tableau Public 
 
-[![Aperçu du Tableau de Bord](Dashboard e-commerce.png)](e-commerce-dashboard-preview.png)]https://public.tableau.com/views/ecommercetermin/TABLEAUDEBORDSURECOMMERCE?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+[![Aperçu du Tableau de Bord](Dashboard e-commerce.png )]([VOTRE_LIEN_TABLEAU_PUBLIC_ICI](https://public.tableau.com/views/ecommercetermin/TABLEAUDEBORDSURECOMMERCE?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+
+
+
 
 Recommandations Stratégiques :
 
