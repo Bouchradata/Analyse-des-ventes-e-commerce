@@ -35,10 +35,7 @@ Visualisation & Pilotage Interactif (Tableau)
 Le tableau de bord interactif a été conçu pour permettre aux managers de piloter l'activité de manière autonome. 
 
 👉 Cliquez sur l'image ci-dessous pour explorer et filtrer le dashboard en temps réel sur Tableau Public 
-[![Aperçu du Tableau de Bord](Dashbord%20e-commerce.png)](https://public.tableau.com/views/ecommercetermin/TABLEAUDEBORDSURECOMMERCE?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-(https://public.tableau.com/views/ecommercetermin/TABLEAUDEBORDSURECOMMERCE?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
+[![Aperçu du Tableau de Bord](Dashboard%20e-commerce.png)](https://public.tableau.com/views/ecommercetermin/TABLEAUDEBORDSURECOMMERCE?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Recommandations Stratégiques :
 
