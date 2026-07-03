@@ -4,12 +4,12 @@
 
 
 ### Champ	Détail
-`Outil principal	SQLite 
-Dataset	https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset
-Volume de données	541 910 lignes — 8 colonnes
-Période couverte	Décembre 2010 — Décembre 2011
-Date de début	Mai 2026
-Statut	En cours de réalisation`
+>Outil principal	SQLite 
+>Dataset	https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset
+>Volume de données	541 910 lignes — 8 colonnes
+>Période couverte	Décembre 2010 — Décembre 2011
+>Date de début	Mai 2026
+>Statut	En cours de réalisation
 
 
 ### Contexte du projet
@@ -22,12 +22,12 @@ Le dataset utilisé est le Online Retail Dataset, disponible sur le site KAGGLE.
 
 Réaliser une analyse complète et structurée du dataset Online Retail en SQL, exploitable dans un portfolio professionnel destiné à des recruteurs dans le domaine de la data.
 
-`
+
 •	Importer et explorer le dataset dans SQLite
 •	Nettoyer les données pour garantir la fiabilité des résultats
 •	Répondre à des questions d'analyse métier concrètes via des requêtes SQL
 •	Produire des résultats lisibles et interprétables
-•	Documenter chaque étape de façon professionnelle`
+•	Documenter chaque étape de façon professionnelle
 
 ### Présentation du dataset
 
@@ -68,20 +68,20 @@ Sept questions structurées en cinq thématiques constituent le cœur de ce proj
 ## Plan de travail
 
 
-###Étape	Tâche	Compétences SQL mobilisées	Statut
+### Étape	Tâche	Compétences SQL mobilisées	Statut
 
-1	Importer le CSV dans SQLite	CREATE TABLE, import CSV	fait
-2	Explorer le dataset	SELECT, COUNT, LIMIT, DISTINCT	
-3	Nettoyer les données	WHERE, IS NULL, IS NOT NULL, filtre Quantity > 0	
-4	Calculer le CA total	SUM, colonnes calculées, AS	
-5	Top 10 produits par revenu	GROUP BY, ORDER BY DESC, LIMIT	
-6	Top clients par dépense	GROUP BY CustomerID, SUM, ORDER BY	
-7	Clients uniques	COUNT(DISTINCT CustomerID)	
-8	Top 10 produits en quantité	SUM(Quantity), GROUP BY, ORDER BY	
-9	Quantité forte / revenu faible	Colonnes calculées, comparaison	
-10	Revenus par pays	GROUP BY Country, SUM, ORDER BY	
-11	Ventes par mois	strftime(), GROUP BY, ORDER BY	
-12	Mois le plus performant	ORDER BY DESC, LIMIT 1	
+>	Importer le CSV dans SQLite	CREATE TABLE, import CSV	fait
+>	Explorer le dataset	SELECT, COUNT, LIMIT, DISTINCT	
+>	Nettoyer les données	WHERE, IS NULL, IS NOT NULL, filtre Quantity > 0	
+>	Calculer le CA total	SUM, colonnes calculées, AS	
+>	Top 10 produits par revenu	GROUP BY, ORDER BY DESC, LIMIT	
+>	Top clients par dépense	GROUP BY CustomerID, SUM, ORDER BY	
+>	Clients uniques	COUNT(DISTINCT CustomerID)	
+>	Top 10 produits en quantité	SUM(Quantity), GROUP BY, ORDER BY	
+>	Quantité forte / revenu faible	Colonnes calculées, comparaison	
+>	Revenus par pays	GROUP BY Country, SUM, ORDER BY	
+>	Ventes par mois	strftime(), GROUP BY, ORDER BY	
+>	Mois le plus performant	ORDER BY DESC, LIMIT 1	
 
 
 
