@@ -59,5 +59,5 @@ Ce projet a permis d'apporter des réponses précises aux problématiques identi
   * **Hiver / Printemps (Stabilité) :** Entre le 19 décembre et le 24 avril, l'activité se stabilise entre 195 et 375 commandes.
   * **Printemps / Été (Reprise) :** Une première hausse apparaît le 8 mai 2011 (469 commandes), suivie d'une croissance continue à partir du 8 août.
 
-> 💡 **Recommandation stratégique :** Ces cycles sont prévisibles et constituent une opportunité stratégique. Anticiper les périodes de pic (novembre-décembre) permet de préparer les stocks, renforcer les équipes logistiques et planifier les campagnes marketing à l'avance — plutôt que de subir la demande. La période creuse (janvier-avril) peut quant à elle être mise à profit pour optimiser les stocks et tester de nouvelles offres promotionnelles.
+> 💡 **Recommandation stratégique :** Ces cycles sont prévisibles et constituent une opportunité stratégique. Anticiper les périodes de pic (novembre-décembre) permet de préparer les stocks, renforcer les équipes logistiques et planifier les campagnes marketing à l'avance plutôt que de subir la demande. La période creuse (janvier-avril) peut quant à elle être mise à profit pour optimiser les stocks et tester de nouvelles offres promotionnelles.
 
