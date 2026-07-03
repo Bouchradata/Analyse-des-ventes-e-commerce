@@ -15,7 +15,7 @@ SOURCE DES DONNEES :
 > Source : Jeu de données réel issu de Kaggle (Online Retail Dataset).
 > Périmètre : Transactions mondiales enregistrées entre décembre 2010 et décembre 2011.
 > Volume initial : +541 000 lignes brutes.
-> Échantillon : Un aperçu de 100 lignes est disponible dans le dossier `/data` pour illustrer la structure de la table.
+> Échantillon : Un aperçu de 100 lignes est disponible pour illustrer la structure de la table.
 
 
 PIPILINE TEHCNIQUE & NETTOYAGE SQL :
