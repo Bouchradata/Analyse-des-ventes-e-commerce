@@ -4,11 +4,11 @@
 ----DESCRIPTION : Une ligne correspond à une référence d'article au sein d'une commande et c'est la colonne Quantity qui détermine la quantité
 
 --------------------------------<<<<<<<<<<<<<<<<<<<<<<<VERIFICATION ID CLIENT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------------------------
-```SELECT 
+SELECT 
     COUNT(*) AS Total_Lignes,
     COUNT(CustomerID) AS Lignes_Avec_ID,
     SUM(CASE WHEN CustomerID IS NULL THEN 1 ELSE 0 END) AS Lignes_Sans_ID 
-FROM ventes;```
+FROM ventes;
 
 
 -------réponse : 541909	541909	0
