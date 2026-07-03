@@ -1,37 +1,37 @@
-CAHIER DES CHARGES
-Projet Data Analyst — Portfolio
-Analyse des ventes e-commerce — Online Retail Dataset
+##CAHIER DES CHARGES
+#Projet Data Analyst — Portfolio
+###Analyse des ventes e-commerce — Online Retail Dataset
 
 
-Champ	Détail
-Outil principal	SQLite 
+###Champ	Détail
+`Outil principal	SQLite 
 Dataset	https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset
 Volume de données	541 910 lignes — 8 colonnes
 Période couverte	Décembre 2010 — Décembre 2011
 Date de début	Mai 2026
-Statut	En cours de réalisation
+Statut	En cours de réalisation`
 
 
-1. Contexte du projet
+###Contexte du projet
 
 Ce projet s'inscrit dans une démarche de reconversion professionnelle vers le métier de Data Analyst. Il a pour objectif de démontrer, à travers un cas concret et réaliste, les compétences acquises en analyse de données, en SQL et en restitution des résultats.
 
 Le dataset utilisé est le Online Retail Dataset, disponible sur le site KAGGLE. Il contient les transactions d'un commerce en ligne britannique entre décembre 2010 et décembre 2011. 
-2. Objectifs du projet
 
-2.1 Objectif général
+ ###Objectifs du projet
+
 Réaliser une analyse complète et structurée du dataset Online Retail en SQL, exploitable dans un portfolio professionnel destiné à des recruteurs dans le domaine de la data.
 
-2.2 Objectifs spécifiques
+`
 •	Importer et explorer le dataset dans SQLite
 •	Nettoyer les données pour garantir la fiabilité des résultats
 •	Répondre à des questions d'analyse métier concrètes via des requêtes SQL
 •	Produire des résultats lisibles et interprétables
-•	Documenter chaque étape de façon professionnelle
+•	Documenter chaque étape de façon professionnelle`
 
-3. Présentation du dataset
+###Présentation du dataset
 
-3.1 Description des colonnes
+Descriptiondescolonnes
 
 Colonne	Description	Points de vigilance
 InvoiceNo	Numéro de facture / commande	Commence par C = remboursement
@@ -43,7 +43,7 @@ UnitPrice	Prix unitaire en livres sterling	Valeurs à 0 à filtrer
 CustomerID	Identifiant client	Tout est bon
 Country	Pays du client	
 
-4. Questions d'analyse
+###Questions d'analyse
 
 Sept questions structurées en cinq thématiques constituent le cœur de ce projet. Chaque question correspond à une requête SQL documentée et à un résultat interprété.
 
