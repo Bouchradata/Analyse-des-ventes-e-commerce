@@ -3,28 +3,28 @@
   # 📊 Analyse Performance & Pilotage Stratégique E-Commerce (2010 - 2011)
 
 
-Ce projet vise à répondre à une question business concrète : **Comment optimiser les performances commerciales et la stratégie de réapprovisionnement d'une entreprise de retail ?
+Ce projet vise à répondre à une question business concrète : Comment optimiser les performances commerciales et la stratégie de réapprovisionnement d'une entreprise de retail ?
 
-OBJECTIF : 
+##OBJECTIF : 
 
 > Isoler l'impact des retours produits** sur la rentabilité réelle.
 > Cartographier la performance internationale** pour orienter les futurs investissements marketing.
 > Segmenter la base client (Fidèles vs Occasionnels) pour aider l'équipe marketing à bâtir des campagnes ciblées.
 
  
-SOURCE DES DONNEES : 
+##SOURCE DES DONNEES : 
 > Source : Jeu de données réel issu de Kaggle (Online Retail Dataset).
 > Périmètre :** Transactions mondiales enregistrées entre décembre 2010 et décembre 2011.
 > Volume initial : +541 000 lignes brutes.
 > Échantillon :** Un aperçu de 100 lignes est disponible dans le dossier `/data` pour illustrer la structure de la table.
 
 
-Pipeline Technique & Rigueur du Nettoyage (SQL)
+##Pipeline Technique & Rigueur du Nettoyage (SQL)
 
 Le traitement et le contrôle qualité des données ont été entièrement réalisés sous SQL. 80% du travail a consisté à assainir le dataset pour sécuriser les décisions :
 
 
-Résultats Clés & Insights Business: 
+##Résultats Clés & Insights Business: 
 
 > Chiffre d'Affaires Net Global : 9 748 131,07 £ (après déduction stricte des retours).
 > 
@@ -36,7 +36,7 @@ Résultats Clés & Insights Business:
 >
 
 
-VISUALISATION : 
+##VISUALISATION : 
 Le tableau de bord interactif a été conçu pour permettre aux managers de piloter l'activité de manière autonome. 
 
 👉 Cliquez sur l'image ci-dessous pour explorer et filtrer le dashboard en temps réel sur Tableau Public 
