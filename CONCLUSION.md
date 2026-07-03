@@ -61,8 +61,3 @@ Ce projet a permis d'apporter des réponses précises aux problématiques identi
 
 > 💡 **Recommandation stratégique :** Ces cycles sont prévisibles et constituent une opportunité stratégique. Anticiper les périodes de pic (novembre-décembre) permet de préparer les stocks, renforcer les équipes logistiques et planifier les campagnes marketing à l'avance — plutôt que de subir la demande. La période creuse (janvier-avril) peut quant à elle être mise à profit pour optimiser les stocks et tester de nouvelles offres promotionnelles.
 
----
-
-## 🎯 Bilan général
-
-Ce projet m'a permis de répondre à chaque question du cahier des charges avec des données fiables et nettoyées. Mais au-delà des chiffres, il m'a surtout appris qu'un bon analyste ne s'arrête pas au résultat — il se demande ce que ce résultat implique concrètement pour l'entreprise, et ce qu'elle pourrait faire différemment.
