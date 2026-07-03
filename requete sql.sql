@@ -11,7 +11,7 @@ SELECT
 FROM ventes;
 
 
--------réponse : 541909	541909	0
+--------- Résultat : Total_Lignes = 541 909 | Lignes_Avec_ID = 541 909 | Lignes_Sans_ID = 0
 
 ------vérification-----------
 
