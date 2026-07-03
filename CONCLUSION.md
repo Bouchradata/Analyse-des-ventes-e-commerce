@@ -1,10 +1,10 @@
-## 🏁 CONCLUSION & CONSTATS DU PROJET
+##  CONCLUSION & CONSTATS DU PROJET
 
 Ce projet a permis d'apporter des réponses précises aux problématiques identifiées dans le cahier des charges, sur la période étudiée (du 28 novembre 2010 au 4 décembre 2011). Voici le bilan de nos analyses SQL :
 
 ---
 
-### 📊 1. Volume & Revenue
+###  1. Volume & Revenue
 
 * **Quel est le volume total d'articles vendus ?**
   Le volume total s'élève à **5 176 196** articles vendus (sur un total de 19 959 commandes).
@@ -13,7 +13,7 @@ Ce projet a permis d'apporter des réponses précises aux problématiques identi
 
 ---
 
-### 🌍 2. Géographie
+###  2. Géographie
 
 * **Quels pays génèrent le plus de ventes (Top 5 hors Royaume-Uni) ?**
   Le Royaume-Uni domine largement l'activité avec 8 189 252 £ (soit 84% du CA). À l'international, le Top 5 des pays les plus performants génère 1 103 492 £ (11,32% du CA global) :
@@ -25,7 +25,7 @@ Ce projet a permis d'apporter des réponses précises aux problématiques identi
 
 ---
 
-### 📦 3. Commandes
+###  3. Commandes
 
 * **Quel est le panier moyen par facture ?**
   Le panier moyen par facture s'élève à **488 £**.
@@ -34,7 +34,7 @@ Ce projet a permis d'apporter des réponses précises aux problématiques identi
 
 ---
 
-### 👥 4. Clients
+###  4. Clients
 
 * **Combien de clients uniques l'entreprise compte-t-elle ?**
   L'entreprise compte un total de **4 371** clients uniques sur la période.
@@ -43,7 +43,7 @@ Ce projet a permis d'apporter des réponses précises aux problématiques identi
 
 ---
 
-### 📈 5. Tendances temporelles
+###  5. Tendances temporelles
 
 * **Quels sont les mois les plus performants ?**
   L'analyse de l'évolution mensuelle de l'activité met en évidence trois phases distinctes :
