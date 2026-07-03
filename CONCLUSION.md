@@ -1,4 +1,4 @@
-##  CONCLUSION & CONSTATS DU PROJET
+##  CONCLUSION
 
 Ce projet a permis d'apporter des réponses précises aux problématiques identifiées dans le cahier des charges, sur la période étudiée (du 28 novembre 2010 au 4 décembre 2011). Voici le bilan de nos analyses SQL :
 
