@@ -1,7 +1,7 @@
------------------##################PROJET PORTFOLIO DATA ANALYST >>>ANALYSE DES VENTES ONLINES RETAIL######################--------------------
+##############################################PROJET PORTFOLIO DATA ANALYST >>>ANALYSE DES VENTES ONLINES RETAIL######################################################
 --#####################################################################################################################
 
-----DESCRIPTION : Une ligne correspond à une référence d'article au sein d'une commande et c'est la colonne Quantity qui détermine la quantité
+--DESCRIPTION : Une ligne correspond à une référence d'article au sein d'une commande et c'est la colonne Quantity qui détermine la quantité
 
 --------------------------------<<<<<<<<<<<<<<<<<<<<<<<VERIFICATION ID CLIENT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------------------------
 SELECT 
