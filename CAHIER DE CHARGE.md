@@ -30,19 +30,7 @@ Réaliser une analyse complète et structurée du dataset Online Retail en SQL, 
 •	Produire des résultats lisibles et interprétables
 •	Documenter chaque étape de façon professionnelle
 
-### Présentation du dataset
-
-Descriptiondescolonnes
-
-Colonne	Description	Points de vigilance
-InvoiceNo	Numéro de facture / commande	Commence par C = remboursement
-StockCode	Code produit unique	
-Description	Nom du produit	
-Quantity	Quantité commandée	Valeurs négatives = retours clients
-InvoiceDate	Date et heure de la commande	Format à gérer dans SQLite
-UnitPrice	Prix unitaire en livres sterling	Valeurs à 0 à filtrer
-CustomerID	Identifiant client	Tout est bon
-Country	Pays du client	
+	
 
 ### Questions d'analyse
 
