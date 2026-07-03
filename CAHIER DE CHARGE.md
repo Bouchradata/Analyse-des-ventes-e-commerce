@@ -4,12 +4,13 @@
 
 
 ### PRESENTATION
->Outil principal	SQLite 
->Dataset	https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset
->Volume de données	541 910 lignes — 8 colonnes
->Période couverte	Décembre 2010 — Décembre 2011
->Date de début	Mai 2026
->Statut	En cours de réalisation
+
+-Outil principal	SQLite 
+-Dataset	https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset
+-Volume de données	541 910 lignes — 8 colonnes
+-Période couverte	Décembre 2010 — Décembre 2011
+-Date de début	Mai 2026
+-Statut	En cours de réalisation
 
 
 ### Contexte du projet
