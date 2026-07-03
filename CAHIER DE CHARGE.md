@@ -3,7 +3,7 @@
 ### Analyse des ventes e-commerce — Online Retail Dataset
 
 
-### Champ	Détail
+### PRESENTATION
 >Outil principal	SQLite 
 >Dataset	https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset
 >Volume de données	541 910 lignes — 8 colonnes
