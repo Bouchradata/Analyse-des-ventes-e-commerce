@@ -34,7 +34,7 @@ Ce projet a permis d'apporter des réponses précises aux problématiques identi
 * **Quels sont les 10 produits qui génèrent le plus de revenus ?**
   Le Top 10 des produits les plus vendus génère un total de **432 757 £**, soit **4,4 %** du chiffre d'affaires global.
 
-> 💡 **Recommandation stratégique :** Ces 10 références concentrent une part significative des commandes. Une rupture de stock sur l'une d'elles pendant une période de pic pourrait entraîner des pertes directes. Il est conseillé de maintenir un stock minimum garanti sur ces produits et d'anticiper le réapprovisionnement avant les périodes de forte activité (novembre-décembre notamment).
+> 💡 **Recommandation stratégique :** Ces 10 références concentrent une part significative des commandes. Une rupture de stock sur l'une d'elles pendant une période de forte activité pourrait entraîner des pertes directes. Il est conseillé de maintenir un stock minimum garanti sur ces produits et d'anticiper le réapprovisionnement avant les périodes de forte activité (novembre-décembre notamment).
 
 ---
 
