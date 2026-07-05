@@ -3,7 +3,7 @@
 Ce projet a permis d'apporter des réponses précises aux problématiques identifiées dans le cahier des charges, sur la période du 28 novembre 2010 au 4 décembre 2011.
 
 ---
-
+  
 ### 📊 1. Volume et chiffre d'affaires
 
 * **Quel est le volume total d'articles vendus ?**
