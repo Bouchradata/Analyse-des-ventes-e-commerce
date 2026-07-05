@@ -54,7 +54,7 @@ Ce projet a permis d'apporter des réponses précises aux problématiques identi
 ### 📈 5. Tendances temporelles
 
 * **Quels sont les mois les plus performants ?**
-  L'analyse de l'évolution mensuelle  met  en évidence trois phases distinctes :
+  L'analyse de l'évolution mensuelle MET en évidence trois phases distinctes :
   * **Décembre 2010 (Pic et chute) :** Un pic d'activité est observé le 5 décembre 2010 avec 574 commandes, suivi d'une baisse brutale le 19 décembre (183 commandes).
   * **Hiver / Printemps (Stabilité) :** Entre le 19 décembre et le 24 avril, l'activité se stabilise entre 195 et 375 commandes.
   * **Printemps / Été (Reprise) :** Une première hausse apparaît le 8 mai 2011 (469 commandes), suivie d'une croissance continue à partir du 8 août.
