@@ -78,7 +78,7 @@ from ventes_propre;
 
 
 ----------------------------------------------------<<<<<<<<<<CREATION TABLE>>>>>>>>>>>>>>>--------------------------------------------
-CREATE TABLE ventes_monetaires AS
+CREATE TABLE ventes_propre AS
 SELECT * FROM ventes
 WHERE UnitPrice > 0;
 
