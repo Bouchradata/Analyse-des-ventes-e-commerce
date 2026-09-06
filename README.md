@@ -30,7 +30,7 @@ RESULATS ET KPI :
 > 
 > Volume de commandes d'achat uniques : 19 959 (excluant les transactions d'annulations).
 > 
-> Hégémonie du marché domestique : Le Royaume-Uni concentre l'essentiel de l'activité, tandis que le Top 5 Europe (Pays-Bas, Allemagne, France, Australie,Irlande) dessine les relais de croissance.
+> Hégémonie du marché domestique : Le Royaume-Uni concentre l'essentiel de l'activité, tandis que le Top 5 Europe (Australie, France, Allemagne, Irlande, Pays-bas) dessine les relais de croissance.
 > 
 > Santé de la base client : Forte dynamique de réachat avec 3 059 clients fidèles,  contre 1 312 clients ponctuels.
 >
