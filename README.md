@@ -4,6 +4,7 @@
 
 
 Ce projet vise à répondre à une question business concrète : Comment optimiser les performances commerciales et la stratégie de réapprovisionnement d'une entreprise de retail ?
+
 OBJECTIF : 
 
 > Isoler l'impact des retours produits sur la rentabilité réelle.
@@ -18,20 +19,20 @@ SOURCE DES DONNEES :
 > Échantillon : Un aperçu de 100 lignes est disponible pour illustrer la structure de la table.
 
 
-PIPILINE TEHCNIQUE & NETTOYAGE SQL :
+PIPELINE TECHNIQUE & NETTOYAGE SQL :
 
 Le traitement et le contrôle qualité des données ont été entièrement réalisés sous SQL. 80% du travail a consisté à assainir le dataset pour sécuriser les décisions :
 
 
-RESULAT ET KPI :
+RESULATS ET KPI :
 
 > Chiffre d'Affaires Net Global : 9 748 131,07 £ (après déduction des retours).
 > 
 > Volume de commandes d'achat uniques : 19 960 (excluant les transactions d'annulations).
 > 
-> Hégémonie du marché domestique : Le Royaume-Uni concentre l'essentiel de l'activité, tandis que le Top 5 Europe (Pays-Bas, Allemagne, France, Autralie,Irlande) dessine les relais de croissance.
+> Hégémonie du marché domestique : Le Royaume-Uni concentre l'essentiel de l'activité, tandis que le Top 5 Europe (Pays-Bas, Allemagne, France, Australie,Irlande) dessine les relais de croissance.
 > 
-> Santé de la base client : Forte dynamique de réachat avec 3 059 clients fidèles (> 1 commande) contre 1 312 clients ponctuels (1 seule commande).
+> Santé de la base client : Forte dynamique de réachat avec 3 059 clients fidèles,  contre 1 312 clients ponctuels.
 >
 
 
