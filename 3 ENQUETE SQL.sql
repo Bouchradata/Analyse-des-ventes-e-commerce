@@ -152,16 +152,23 @@ where InvoiceNo LIKE 'C%';
 
 select sum (Quantity *  UnitPrice)
 from ventes_finales;
---resultat : 9 748 131.074 CA sans doublons 
+--resultat : 9 748 131.074 £ CA sans doublons 
 
---quel est le nombre de commande ?
+-- Quel est le chiffre United Kingdom ?
+
+SELECT SUM(Quantity * UnitPrice) 
+FROM ventes_finales 
+WHERE Country = 'United Kingdom';
+--resulat : 8189252.304 £
+
+--Quel est le nombre de commande ?
 SELECT COUNT(DISTINCT InvoiceNo) AS nb_commandes_uniques
 FROM ventes_finales;
 
 --résultat : 23 796 COMMANDES
 
 
---Vrai nombre de commandes d'achat uniques
+--Nombre réel de commandes d'achat uniques
 
 SELECT COUNT(DISTINCT InvoiceNo) AS nb_commandes_achats
 FROM ventes_finales 
@@ -169,7 +176,7 @@ WHERE InvoiceNo NOT LIKE 'C%';
 -- réponse : 19960
 
 
---combien de  client total?
+--Combien de  client total?
 select count( DISTINCT  CustomerID)
 from ventes_propre;
 
