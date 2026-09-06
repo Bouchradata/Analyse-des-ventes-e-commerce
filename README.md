@@ -28,7 +28,7 @@ RESULATS ET KPI :
 
 > Chiffre d'Affaires Net Global : 9 748 131,07 £ (après déduction des retours).
 > 
-> Volume de commandes d'achat uniques : 19 960 (excluant les transactions d'annulations).
+> Volume de commandes d'achat uniques : 19 959 (excluant les transactions d'annulations).
 > 
 > Hégémonie du marché domestique : Le Royaume-Uni concentre l'essentiel de l'activité, tandis que le Top 5 Europe (Pays-Bas, Allemagne, France, Australie,Irlande) dessine les relais de croissance.
 > 
