@@ -207,13 +207,12 @@ HAVING nb_commandes = 1;
 
 --Top des clients qui dépensent le plus
 select CustomerID ,
-    sum (Quantity *UnitPrice) as nb_total ,
+    sum (Quantity *UnitPrice) AS CA,
     count (distinct InvoiceNo) as nb_commande
 from ventes_finales
 where CustomerID !=""
 group by CustomerID
-order by nb_total desc; 
-
+order by CA desc;
 
 
 
