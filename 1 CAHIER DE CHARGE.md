@@ -54,27 +54,6 @@ Sept questions structurées en cinq thématiques constituent le cœur de ce proj
 ### Tendances temporelles
 •	Quels sont les mois les plus performants ?
 
-## Plan de travail
-
-
-### Étape	Tâche	Compétences SQL mobilisées	Statut
-
->	Importer le CSV dans SQLite	CREATE TABLE, import CSV	fait
->	Explorer le dataset	SELECT, COUNT, LIMIT, DISTINCT	
->	Nettoyer les données	WHERE, IS NULL, IS NOT NULL, filtre Quantity > 0	
->	Calculer le CA total	SUM, colonnes calculées, AS	
->	Top 10 produits par revenu	GROUP BY, ORDER BY DESC, LIMIT	
->	Top clients par dépense	GROUP BY CustomerID, SUM, ORDER BY	
->	Clients uniques	COUNT(DISTINCT CustomerID)	
->	Top 10 produits en quantité	SUM(Quantity), GROUP BY, ORDER BY	
->	Quantité forte / revenu faible	Colonnes calculées, comparaison	
->	Revenus par pays	GROUP BY Country, SUM, ORDER BY	
->	Ventes par mois	strftime(), GROUP BY, ORDER BY	
->	Mois le plus performant	ORDER BY DESC, LIMIT 1	
 
 
 
-•	Un fichier SQLite contenant les données importées et nettoyées
-•	Un script SQL documenté avec toutes les requêtes commentées
-•	Un rapport de synthèse présentant les résultats et les interprétations
-•	Ce cahier des charges mis à jour au fil du projet
