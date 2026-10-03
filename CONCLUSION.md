@@ -1,13 +1,13 @@
 # 🏁 CONCLUSION & CONSTATS DU PROJET
 
-Ce projet a permis d'apporter des réponses précises aux problématiques identifiées dans le cahier des charges, sur la période du 28 novembre 2010 au 4 décembre 2011.
+Ce projet a permis d'apporter des réponses précises aux problématiques identifiées dans le cahier des charges, sur la période de décembre 2010 à décembre 2011.
 
 ---
   
 ### 📊 1. Volume et chiffre d'affaires
 
 * **Quel est le volume total d'articles vendus ?**
-  Le volume total s'élève à **5 176 196** articles vendus, répartis sur **19 959** commandes.
+  Le volume total s'élève à **5 572 420** articles vendus, répartis sur **19 959** commandes.
 * **Quel est le chiffre d'affaires total réalisé ?**
   Le chiffre d'affaires mondial réalisé est de **9 748 131 £**.
 
@@ -17,7 +17,7 @@ Ce projet a permis d'apporter des réponses précises aux problématiques identi
 
 * **Quels pays génèrent le plus de ventes (Top 5 hors Royaume-Uni) ?**
   Le Royaume-Uni domine largement l'activité avec 8 189 252 £, soit **84 %** du CA total. À l'international, le Top 5 des pays les plus performants génère 1 103 492 £, représentant **11,32 %** du CA global :
-  * **Pays-Bas :** 284 663 £ (2,92 %)
+  * **Pays-Bas :** 284 662 £ (2,92 %)
   * **Irlande :** 262 993 £ (2,70 %)
   * **Allemagne :** 221 509 £ (2,27 %)
   * **France :** 197 317 £ (2,02 %)
@@ -41,9 +41,9 @@ Ce projet a permis d'apporter des réponses précises aux problématiques identi
 ### 👥 4. Clients
 
 * **Combien de clients uniques l'entreprise compte-t-elle ?**
-  L'entreprise compte **4 371** clients uniques sur la période.
-* **Quelle est la part des clients récurrents ?**
-  La base client présente une forte fidélité : **3 059** clients sont fidèles (plus d'une commande), contre **1 312** clients ponctuels (une seule commande).
+  L'entreprise compte **4371** clients au total donc 1 312 clients unique. 
+* **Quelle est la part des clients fidèles ?**
+  La base client présente une forte fidélité : **3 059** clients sont fidèles.
 
 > 💡 **Recommandation stratégique :** Les 1 312 clients ponctuels représentent un levier de croissance sous-exploité. Plusieurs hypothèses peuvent expliquer leur non-retour : expérience de livraison insatisfaisante, offre inadaptée, ou simplement absence de relance. Sans données qualitatives (avis clients, taux d'abandon de panier), il est impossible de trancher avec certitude.
 > 
